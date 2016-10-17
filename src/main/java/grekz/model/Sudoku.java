@@ -16,7 +16,7 @@ public class Sudoku {
     private String previousState;
 
 
-    public Sudoku(String state, String move) {
+    public Sudoku(String state, String move) throws Exception {
         this(state);
         char[] mv = move.toCharArray();
         if (mv.length < 3) {
@@ -124,7 +124,9 @@ public class Sudoku {
 
         isValidGrid = true;
     }
-    private void validateMove(int x, int y, int value){
+    private void validateMove(int x, int y, int value) throws Exception {
+        if ( x > 8 || y > 8 || x < 0 || y < 0 )
+            throw new Exception("Invalid move.");
         this.grid[x][y] = value;
         this.previousState = this.state;
         this.state = "/sudoku/" + BoardUtils.getStateFromGrid(grid);

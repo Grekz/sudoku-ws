@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3881e76-dd5c-4b0f-afa4-485665bd81c5" name="Default" comment="Adding solved flag to Sudoku, and handle of empty rows in state">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/controller/SudokuCtrl.class" afterPath="$PROJECT_DIR$/target/classes/grekz/controller/SudokuCtrl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/model/Sudoku.class" afterPath="$PROJECT_DIR$/target/classes/grekz/model/Sudoku.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/util/BoardUtils.class" afterPath="$PROJECT_DIR$/target/classes/grekz/util/BoardUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/grekz/SpringAppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/grekz/controller/SudokuCtrlTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/grekz/model/SudokuTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/grekz/util/BoardUtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/grekz/model/SudokuTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/SpringApp.class" afterPath="$PROJECT_DIR$/target/classes/grekz/SpringApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/enumeration/BoardEnum.class" afterPath="$PROJECT_DIR$/target/classes/grekz/enumeration/BoardEnum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/SpringApp.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/SpringApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-grekz.model.SudokuTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-grekz.model.SudokuTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/grekz.model.SudokuTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/grekz.model.SudokuTest.txt" />
     </list>
     <ignored path="sudokumaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,34 +56,30 @@
       <file leaf-file-name="Sudoku.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="250">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#4408#4409#0" expanded="true" />
-                <element signature="e#4439#4440#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuCtrl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java">
+      <file leaf-file-name="BoardUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="311">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java">
+      <file leaf-file-name="SudokuCtrl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="369">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -78,28 +88,18 @@
       <file leaf-file-name="BoardEnum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="100" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardUtilsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/grekz/util/BoardUtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/grekz/SpringApp.java">
+      <file leaf-file-name="SpringAppTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/grekz/SpringAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="24" column="11" selection-start-line="11" selection-start-column="10" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="294">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,13 +107,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/grekz/model/SudokuTest.java">
+      <file leaf-file-name="SudokuCtrlTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/grekz/controller/SudokuCtrlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,17 +143,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/grekz/Sudoku.java" />
-        <option value="$PROJECT_DIR$/src/test/java/grekz/model/SudokuTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/grekz/app/SpringApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/grekz/enum/Board.kt" />
         <option value="$PROJECT_DIR$/src/main/java/grekz/enumeration/Board.java" />
-        <option value="$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java" />
         <option value="$PROJECT_DIR$/src/test/java/grekz/util/BoardUtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" />
         <option value="$PROJECT_DIR$/src/main/java/grekz/SpringApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/grekz/SpringAppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/grekz/model/SudokuTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/grekz/controller/SudokuCtrlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" />
+        <option value="$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java" />
       </list>
     </option>
   </component>
@@ -178,6 +180,25 @@
     <option name="y" value="-4" />
     <option name="width" value="1608" />
     <option name="height" value="864" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>DefaultFileTemplate</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -264,10 +285,6 @@
               <option name="myItemId" value="grekz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -295,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,11 +505,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/otherCodes/gs-rest-service/complete" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/grekz" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="grekz.controller" />
+      <recent name="grekz" />
       <recent name="grekz.util" />
       <recent name="grekz.model" />
     </key>
@@ -1069,7 +1088,7 @@
       <updated>1476650274163</updated>
       <workItem from="1476650289079" duration="4613000" />
       <workItem from="1476666053821" duration="10757000" />
-      <workItem from="1476680864336" duration="7866000" />
+      <workItem from="1476680864336" duration="13551000" />
     </task>
     <task id="LOCAL-00001" summary="adding mapping of moves and previous state to response">
       <created>1476682920962</created>
@@ -1092,11 +1111,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476689656725</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding solved flag to Sudoku, and handle of empty rows in state">
+      <created>1476689667854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1476689667854</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23236000" />
+    <option name="totallyTimeSpent" value="28921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
@@ -1172,10 +1198,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#4408#4409#0" expanded="true" />
-            <element signature="e#4439#4440#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1202,9 +1224,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,10 +1242,6 @@
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#4408#4409#0" expanded="true" />
-            <element signature="e#4439#4440#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1252,19 +1268,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/grekz/model/SudokuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,10 +1281,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/SpringApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/grekz/util/BoardUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1293,10 +1307,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/SpringApp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/grekz/model/SudokuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="24" column="11" selection-start-line="11" selection-start-column="10" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="396">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/grekz/SpringAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/grekz/controller/SudokuCtrlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1305,38 +1363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#4408#4409#0" expanded="true" />
-            <element signature="e#4439#4440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="100" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="369">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>

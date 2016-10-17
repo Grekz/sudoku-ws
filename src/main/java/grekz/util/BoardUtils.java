@@ -33,7 +33,8 @@ public class BoardUtils {
             StringBuilder sb = new StringBuilder();
             for(int x : a)
                 sb.append(x);
-            res.append(Integer.toString(Integer.parseInt(sb.toString(),10), 36)).append('.');
+            String cur = Integer.toString(Integer.parseInt(sb.toString(),10), 36);
+            res.append(cur.equals("0") ? "" : cur).append('-');
         }
         String result = res.toString();
         return result.substring(0, result.length() - 1).toUpperCase();
