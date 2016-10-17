@@ -16,7 +16,7 @@
 
 <h1>Sudoku</h1>
 <p>
-Request <br>
+<h2>Request </h2>
 <ul>
 <li><b>/sudoku : </b> Default call to endpoint, returning the default state and grid of the excercise.</li>
 <li><b>/sudoku/{state} : </b>You can configure the content of the grid base in a hypen separated string representing the number in base-36</li>
@@ -25,7 +25,7 @@ Request <br>
 </p>
 
 <p>
-Response <br>
+<h2>Response </h2>
 <ul>
 <li><b>grid : </b> Contains a graphic representation of the sudoku.</li>
 <li><b>state : </b> The current state of the sudoku, after performing the call to /move/</li>
