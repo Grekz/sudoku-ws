@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3881e76-dd5c-4b0f-afa4-485665bd81c5" name="Default" comment="Adding solved flag to Sudoku, and handle of empty rows in state">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/grekz/SpringAppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/grekz/controller/SudokuCtrlTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/grekz/model/SudokuTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/grekz/util/BoardUtilsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/grekz/model/SudokuTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/SpringApp.class" afterPath="$PROJECT_DIR$/target/classes/grekz/SpringApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/enumeration/BoardEnum.class" afterPath="$PROJECT_DIR$/target/classes/grekz/enumeration/BoardEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/sudokuservice-1.0-SNAPSHOT.jar.original" />
+    <list default="true" id="d3881e76-dd5c-4b0f-afa4-485665bd81c5" name="Default" comment="Finishing Unit Testings">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/controller/SudokuCtrl.class" afterPath="$PROJECT_DIR$/target/classes/grekz/controller/SudokuCtrl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/model/Sudoku.class" afterPath="$PROJECT_DIR$/target/classes/grekz/model/Sudoku.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/util/BoardUtils.class" afterPath="$PROJECT_DIR$/target/classes/grekz/util/BoardUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/SpringApp.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/SpringApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/controller/SudokuCtrl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-grekz.model.SudokuTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-grekz.model.SudokuTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/grekz.model.SudokuTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/grekz.model.SudokuTest.txt" />
     </list>
     <ignored path="sudokumaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/grekz/controller/SudokuCtrlTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1088,7 +1073,7 @@
       <updated>1476650274163</updated>
       <workItem from="1476650289079" duration="4613000" />
       <workItem from="1476666053821" duration="10757000" />
-      <workItem from="1476680864336" duration="13551000" />
+      <workItem from="1476680864336" duration="13976000" />
     </task>
     <task id="LOCAL-00001" summary="adding mapping of moves and previous state to response">
       <created>1476682920962</created>
@@ -1118,11 +1103,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476689667854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finishing Unit Testings">
+      <created>1476695379473</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1476695379473</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28921000" />
+    <option name="totallyTimeSpent" value="29346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
@@ -1172,7 +1164,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="adding mapping of moves and previous state to response" />
     <MESSAGE value="Adding solved flag to Sudoku, and handle of empty rows in state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solved flag to Sudoku, and handle of empty rows in state" />
+    <MESSAGE value="Finishing Unit Testings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Unit Testings" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1336,7 +1329,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/grekz/controller/SudokuCtrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
