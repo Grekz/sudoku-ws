@@ -9,7 +9,7 @@
 <h1>Overview</h1>
 <ul>
   <li><b>Resource Url:</b> http://localhost:8080/<li>
-  <li><b>Request Methods:</b> REST(GET, POST)<li>
-  <li><b>Response Format:</b> JSON <li>
-  <li><b>Respose encoding:</b> UTF-8<li>
+  <li><b>Request Methods:</b> REST(GET, POST)</li>
+  <li><b>Response Format:</b> JSON </li>
+  <li><b>Respose encoding:</b> UTF-8</li>
 </ul>
