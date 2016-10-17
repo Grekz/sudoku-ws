@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3881e76-dd5c-4b0f-afa4-485665bd81c5" name="Default" comment="adding mapping of moves and previous state to response">
+    <list default="true" id="d3881e76-dd5c-4b0f-afa4-485665bd81c5" name="Default" comment="Adding solved flag to Sudoku, and handle of empty rows in state">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/controller/SudokuCtrl.class" afterPath="$PROJECT_DIR$/target/classes/grekz/controller/SudokuCtrl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/model/Sudoku.class" afterPath="$PROJECT_DIR$/target/classes/grekz/model/Sudoku.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/grekz/util/BoardUtils.class" afterPath="$PROJECT_DIR$/target/classes/grekz/util/BoardUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/SpringApp.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/SpringApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/enumeration/BoardEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/model/Sudoku.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java" afterPath="$PROJECT_DIR$/src/main/java/grekz/util/BoardUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
     </list>
     <ignored path="sudokumaven.iws" />
@@ -1073,7 +1069,7 @@
       <updated>1476650274163</updated>
       <workItem from="1476650289079" duration="4613000" />
       <workItem from="1476666053821" duration="10757000" />
-      <workItem from="1476680864336" duration="7795000" />
+      <workItem from="1476680864336" duration="7854000" />
     </task>
     <task id="LOCAL-00001" summary="adding mapping of moves and previous state to response">
       <created>1476682920962</created>
@@ -1082,11 +1078,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476682920962</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding solved flag to Sudoku, and handle of empty rows in state">
+      <created>1476689642761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1476689642761</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23165000" />
+    <option name="totallyTimeSpent" value="23224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
@@ -1135,7 +1138,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="adding mapping of moves and previous state to response" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding mapping of moves and previous state to response" />
+    <MESSAGE value="Adding solved flag to Sudoku, and handle of empty rows in state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solved flag to Sudoku, and handle of empty rows in state" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
