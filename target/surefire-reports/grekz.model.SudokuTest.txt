@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: grekz.model.SudokuTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in grekz.model.SudokuTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in grekz.model.SudokuTest

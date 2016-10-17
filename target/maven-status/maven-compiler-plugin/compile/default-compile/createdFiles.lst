@@ -1,3 +1,5 @@
 grekz\SpringApp.class
+grekz\util\BoardUtils.class
 grekz\controller\SudokuCtrl.class
+grekz\enumeration\BoardEnum.class
 grekz\model\Sudoku.class
