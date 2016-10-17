@@ -11,21 +11,22 @@ import java.util.Arrays;
 public class Sudoku {
     private int[][] grid;
     private boolean isValidGrid;
-    private boolean isValidMove;
+    private boolean isSolved;
     private String state;
     private String previousState;
+
 
     public Sudoku(String state, String move) {
         this(state);
         char[] mv = move.toCharArray();
         if (mv.length < 3) {
             // invalid move, not enough for x, y and value
-            this.isValidMove = false;
-            validate();
+            this.validate();
         }else{
             // valid input, we check if is valid
-            validateMove(mv[0] - '0', mv[1] - '0', mv[2] - '0');
+            this.validateMove(mv[0] - '0', mv[1] - '0', mv[2] - '0');
         }
+        this.checkIfSolved();
     }
 
 //    public static void main(String[] args) {
@@ -42,21 +43,37 @@ public class Sudoku {
     }
     public Sudoku(int[][] grid){
         this.grid = grid;
-        validate();
+        this.validate();
+        this.checkIfSolved();
     }
 
     public Sudoku(String state){
         if (state.equals("default"))
             state = BoardEnum.DEFAULT.getState();
         this.grid = BoardUtils.generateGrid(state);
-        this.state = "/sudoku/"+state;
-        this.isValidMove = true; // isValidMove, because there was no move
-        validate();
+        this.state = "/sudoku/" + state.toUpperCase();
+        this.previousState = this.state;
+        this.validate();
+        this.checkIfSolved();
+    }
+    private void checkIfSolved(){
+        if (this.isValidGrid){
+            this.isSolved = true;
+            grid_loop:
+            for(int[] a : this.grid)
+                for (int b : a)
+                    if (b == 0) {
+                        this.isSolved = false;
+                        break grid_loop;
+                    }
+        }else{
+            this.isSolved = false;
+        }
     }
 
     @SuppressWarnings("Duplicates")
-    public boolean validate(){
-        if (grid == null) return false;
+    private void validate(){
+        if (grid == null) return;
         // check rows
         boolean[] vals = new boolean[9];
         for(int i = 0; i < 9; i++){
@@ -65,7 +82,7 @@ public class Sudoku {
                 if (num >= 0){
                     if(vals[num]){
                         isValidGrid = false;
-                        return false;
+                        return;
                     }
                     vals[num] = true;
                 }
@@ -80,7 +97,7 @@ public class Sudoku {
                 if (num >= 0){
                     if(vals[num]){
                         isValidGrid = false;
-                        return false;
+                        return;
                     }
                     vals[num] = true;
                 }
@@ -96,7 +113,7 @@ public class Sudoku {
                     if (num >= 0){
                         if(vals[num]){
                             isValidGrid = false;
-                            return false;
+                            return;
                         }
                         vals[num] = true;
                     }
@@ -106,15 +123,13 @@ public class Sudoku {
         }
 
         isValidGrid = true;
-        return true;
     }
-    public boolean validateMove(int x, int y, int value){
+    private void validateMove(int x, int y, int value){
         this.grid[x][y] = value;
-        this.previousState = "/sudoku/" + this.state;
+        this.previousState = this.state;
         this.state = "/sudoku/" + BoardUtils.getStateFromGrid(grid);
-        boolean res = this.validate();
-//        if ( !res ) grid[x][y] = 0; // if not a valid move, reset value
-        return res;
+        this.validate();
+        this.checkIfSolved();
     }
 
     public int[][] getGrid() {
@@ -123,10 +138,6 @@ public class Sudoku {
 
     public void setGrid(int[][] grid) {
         this.grid = grid;
-    }
-
-    public boolean isValidMove() {
-        return isValidMove;
     }
 
     public boolean isValidGrid() {
@@ -143,5 +154,9 @@ public class Sudoku {
 
     public String getPreviousState() {
         return previousState;
+    }
+
+    public boolean isSolved() {
+        return isSolved;
     }
 }
